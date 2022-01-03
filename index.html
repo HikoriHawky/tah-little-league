@@ -20,10 +20,10 @@
               font-size: medium;
               font-weight: bold;
               margin-top:0; }
-  .todo   { font-family: 'Roboto', sans-serif; color: red; }
-  .done   { font-family: 'Roboto', sans-serif; color: green; }
-  .priority { font-family: 'Roboto', sans-serif; color: orange; }
-  .tag    { background-color: #eee; font-family: 'Roboto', sans-serif;
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
@@ -32,13 +32,14 @@
   .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p { font-family: 'Roboto', sans-serif; }
   p.verse { margin-left: 3%; }
   pre {
     border: 1px solid #e6e6e6;
     border-radius: 3px;
     background-color: #f2f2f2;
     padding: 8pt;
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace;
     overflow: auto;
     margin: 1.2em;
   }
